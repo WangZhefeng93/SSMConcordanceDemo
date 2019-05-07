@@ -12,5 +12,8 @@
   </head>
   <body>
   <h1>Welcome!</h1>
+  【用户ID】${student.id} <br>
+  【用户名】${student.getName()} <br>
+  【用户年龄】${student.getAge()}
   </body>
 </html>

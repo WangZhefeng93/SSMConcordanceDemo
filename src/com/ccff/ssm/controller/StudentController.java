@@ -19,6 +19,7 @@ public class StudentController {
     @RequestMapping("/register.do")
     public String register(Model model, Student student){
         studentService.insertStudent(student);
+        model.addAttribute("student",student);
         return "/welcome";
     }
 

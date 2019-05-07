@@ -21,7 +21,6 @@
  
     <!-- 指定映射器路径 -->
     <mappers>
-        <!--<package name="com.ccff.ssm.mapper" />-->
         <mapper resource="com/ccff/ssm/mapper/StudentDao.xml" />
     </mappers>
 </configuration>
