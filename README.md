@@ -15,6 +15,7 @@
 ## 2.3 创建Web项目
 &emsp;&emsp;在IDEA中创建名为“SSMConcordanceDemo”的Web Project，并将该项目发布到Tomcat上。该项目的具体项目结构如下所示：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190506171527711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjM3ODkxNw==,size_16,color_FFFFFF,t_70#pic_center)
+
 - config包：放置Java Config配置类
 - controller包：放置Spring MVC的控制器类
 - dao包：放置DAO层接口
@@ -27,8 +28,11 @@
 ## 2.4 导入所需jar包
 &emsp;&emsp;该项目所需的所有jar包全部存放在WEB-INF/lib文件夹中，其所有的jar包与系列博客[《Spring使用篇（十）—— Spring与MyBatis整合》](https://blog.csdn.net/weixin_36378917/article/details/89703802)中使用的jar包相同，具体如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190430103724132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjM3ODkxNw==,size_16,color_FFFFFF,t_70#pic_center)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190430103831945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjM3ODkxNw==,size_16,color_FFFFFF,t_70#pic_center)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190430103922765.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjM3ODkxNw==,size_16,color_FFFFFF,t_70#pic_center)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190430103949370.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjM3ODkxNw==,size_16,color_FFFFFF,t_70#pic_center)
 ## 2.5 配置Log4j
 &emsp;&emsp;在src下创建名为“log4j.properties”属性文件，具体的配置如下：
