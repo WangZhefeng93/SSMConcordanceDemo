@@ -1,5 +1,4 @@
 # SSMConcordanceDemo
-@[toc]
 # 1、综述
 &emsp;&emsp;所谓的SSM框架的整合即对Spring、Spring MVC和MyBatis这三个框架进行整合。由于从Web 3.0开始，使用Java开发Web项目时是可以避免使用和配置web.xml文件的，而是用Java Config的Java代码方式进行配置。
 
@@ -11,6 +10,7 @@
 &emsp;&emsp;为了使我们更好的理解对SSM的整合，我们在整合框架的过程中开发了一个Demo，该Demo的需求就是通过表单采集用户的姓名和年龄，并将信息添加到数据库的数据表中。
 ## 2.2 数据库搭建
 &emsp;&emsp;创建名为“ssm”的数据库，数据库的字符集设置为UTF-8。在该数据库中创建名为“student”的表，其表的设计具体如下所示：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190506171131797.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjM3ODkxNw==,size_16,color_FFFFFF,t_70#pic_center)
 ## 2.3 创建Web项目
 &emsp;&emsp;在IDEA中创建名为“SSMConcordanceDemo”的Web Project，并将该项目发布到Tomcat上。该项目的具体项目结构如下所示：
