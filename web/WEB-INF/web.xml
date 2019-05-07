@@ -10,6 +10,7 @@
         <param-value>classpath:resources/spring-*.xml</param-value>
     </context-param>-->
 
+    <!--加载Java Config配置类-->
     <context-param>
         <!--<param-name>contextConfigLocation</param-name>
         <param-value>classpath:resources/spring-*.xml</param-value>-->
@@ -81,8 +82,8 @@
     </servlet-mapping>
     
     <!--设置默认初始加载JSP页面-->
-    <welcome-file-list>
+    <!--<welcome-file-list>
         <welcome-file>register.jsp</welcome-file>
-    </welcome-file-list>
+    </welcome-file-list>-->
 
 </web-app>

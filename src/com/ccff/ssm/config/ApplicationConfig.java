@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @ComponentScan(basePackages = {"com.ccff.ssm.*"})
-@ImportResource({"classpath:resources/spring-config.xml","classpath:resources/spring-mvc.xml"})
+@ImportResource({"classpath:resources/spring-*.xml"})
 @EnableTransactionManagement
 public class ApplicationConfig {
 }
